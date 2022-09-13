@@ -9,11 +9,10 @@ como rodapé.
 '''
 n1 = int(input('Escreva algum número inteiro: '))
 poli = '='*5
-num = n1+1
 
 print(f'\n {poli} INICIO {poli}\n')
 
-for c in range(0,num):
+for c in range(0,n1+1):
     print(c)
 
 print(f'\n {poli} FIM {poli}\n')
