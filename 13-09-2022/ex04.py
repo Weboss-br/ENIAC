@@ -5,18 +5,15 @@
 #Dentro do laço, crie a capacidade de soma entre esses números digitados, eles devem ser atributos de soma.
 #crie uma função de impressão usando máscara de substituição e imprima de forma descritiva a soma desses números.
 #crie uma função de impressão usando interpolação e aplique a variável de polimorfismo antes e depois da string utilize como rodapé, definindo o fim do laço de repetição.
-
 #crie uma função de impressão usando interpolação e aplique a variável de polimorfismo antes e depois da string cabeçalho início estrutura de decisão adicione quebra de linha, ao final.
-
 #crie uma estrutura de decisão falando se a soma desses números é maior que 10, menor que 10, igual a dez, diferente de 10.
-
 #crie uma função de impressão usando interpolação e aplique a variável de polimorfismo antes e depois da string utilize como rodapé, definindo o fim da estrutura de decisão.
 
 CONSTANTE = 8
 
 poli = "="*20
 
-print(f"\n {poli} CABECALHO {poli} \n")
+print(f"\n{poli} CABECALHO {poli}\n")
 
 lista = []
 
@@ -29,9 +26,9 @@ for c in range(0, 3):
 
 print(" {} + {} + {} = {} ".format(lista[0],lista[1],lista[2],soma))
 
-print(f"\n {poli} RODAPE {poli} \n")
+print(f"\n{poli} RODAPE {poli}\n")
 
-print(f"\n {poli} CABECALHO {poli} \n")
+print(f"\n{poli} CABECALHO ESTRUTURA DECISAO {poli}\n")
 
 if soma > 10:
     print("A soma é maior que 10")
@@ -39,7 +36,7 @@ elif soma < 10:
     print("A soma é inferior a 10")
 elif soma == 10:
     print("A soma é igual a 10")
-elif soma != 10:
+else:
     print("A soma é diferente que 10")
 
-print(f"\n {poli} RODAPE {poli} \n")
+print(f"\n{poli} RODAPE ESTRUTURA DECISAO {poli}\n")
