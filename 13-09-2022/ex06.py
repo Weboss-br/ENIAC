@@ -9,8 +9,9 @@
 
 border = "="*5
 print(f"{border} CABEÇALHO {border}\n")
-for i in range(0, 1501, 2):
-    print(i)
+for i in range(0, 1501):
+    if i % 2 == 0:
+        print(i)
 
 print("Parabens !!! Você conseguiu.\n")
 print(f"{border} RODAPÉ {border}")
