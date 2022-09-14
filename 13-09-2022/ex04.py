@@ -39,4 +39,4 @@ elif soma == 10:
 else:
     print("A soma é diferente que 10")
 
-print(f"\n{poli} RODAPE ESTRUTURA DECISAO {poli}\n")
+print(f"\n{poli} RODAPE ESTRUTURA DECISAO {poli}")
