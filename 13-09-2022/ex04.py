@@ -34,9 +34,10 @@ if soma > 10:
     print("A soma é maior que 10")
 elif soma < 10:
     print("A soma é inferior a 10")
-elif soma == 10:
-    print("A soma é igual a 10")
 else:
-    print("A soma é diferente que 10")
+    print("A soma é igual a 10")
 
-print(f"\n{poli} RODAPE ESTRUTURA DECISAO {poli}\n")
+if soma != 10:
+    print("A soma é diferente de 10")
+
+print(f"\n{poli} RODAPE ESTRUTURA DECISAO {poli}")
