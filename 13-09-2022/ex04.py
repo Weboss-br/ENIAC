@@ -9,7 +9,7 @@
 #crie uma estrutura de decisão falando se a soma desses números é maior que 10, menor que 10, igual a dez, diferente de 10.
 #crie uma função de impressão usando interpolação e aplique a variável de polimorfismo antes e depois da string utilize como rodapé, definindo o fim da estrutura de decisão.
 
-CONSTANTE = 8
+CONSTANTE = 0
 
 poli = "="*20
 
@@ -35,7 +35,7 @@ if soma > 10:
 elif soma < 10:
     print("A soma é inferior a 10")
 else:
-    print("A soma é igual a 10")
+    print("A soma é igual a 10") 
 
 if soma != 10:
     print("A soma é diferente de 10")

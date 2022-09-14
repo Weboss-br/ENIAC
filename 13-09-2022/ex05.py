@@ -10,7 +10,7 @@ poli = "*"*20
 
 print(f"\n{poli} CABECALHO {poli} \n")
 
-for c in range(1 , 21):
+for c in range(20 , 0, -1):
     print(f"    {c} - FELIZ DIA DO PROGRAMADOR     ")
     sleep(2)
     
