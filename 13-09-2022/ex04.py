@@ -20,7 +20,7 @@ lista = []
 soma = 0
 
 for c in range(CONSTANTE, 3):
-    numero = int(input(f"Digite a {c+1}º número: "))
+    numero = int(input(f"Digite o {c+1}º número: "))
     lista.append(numero)
     soma += numero
 
